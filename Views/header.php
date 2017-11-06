@@ -37,7 +37,6 @@
             <i class="fa fa-phone" aria-hidden="true"></i>
             <p>+32 495/20.59.34</p>
           </div>
-
         </div>
       </div>
     </div>
