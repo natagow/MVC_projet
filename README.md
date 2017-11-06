@@ -1,1 +1,2 @@
-# MVC_projet
+# MVC
+Projet MVC
