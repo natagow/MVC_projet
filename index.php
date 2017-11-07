@@ -13,15 +13,35 @@
 	<div id="contenair" class="maincontenair">
 			
 			<div id="card">
-				<div id="mainlogo">
-				<img src="Views/css/logoMotte.jpg" width="50%" height="50%" alt="logo">
-				<h1 class="maintitle">Denis Motte</h1>
-				</div>
+					<div id="mainlogo">
+						<div class="logo"><img src="Views/css/logoMotte.jpg"alt="logo"></div>
+						<h1 class="maintitle">Denis <br />Motte</h1>
+					</div>
+
+			<div id="maininfo">
+					 <ul class="secondinfo">
+							<li>Antiques</li>
+							<li>Decoration</li>
+							<li>Interior Design</li>
+						</ul>
+					<br />		
+					<a href="dialcall">+32 495/20 59 34</a>
+			</div>
+
+			<div id="product">
+				<ul class="subproduct">
+					<li><a href="">présentation</a></li>
+					<li><a href="">le stock</a></li>
+					<li><a href="">contact</a></li>
+				</ul>
 			</div>
 
 
-	</div>
 
+			<!--end card-->
+			</div>
+<!--end contenair-->
+			</div>
 
 </body>
 </html>
