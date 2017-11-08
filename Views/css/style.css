@@ -70,7 +70,7 @@ display: block;
 
 #maininfo{
 margin-top: 10%;
-clear: left;	
+clear: left;
 }
 
 
@@ -86,7 +86,7 @@ ul.secondinfo li {
 
 #product{
  padding-top:2em;
- text-align: center;	
+ text-align: center;
 }
 
 .subproduct {
@@ -104,7 +104,7 @@ list-style-type: none;
 
 .subproduct li a {
 display: block;
-border-radius:5px; 
+border-radius:5px;
 line-height: 1.5em;
 background-color: grey;
 text-transform: uppercase;
@@ -125,8 +125,8 @@ color:#000;
 
 
 
+
 .contact {
 float: right;
 width: auto;
 }
-
