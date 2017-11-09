@@ -323,6 +323,8 @@ blockquote{
 		margin: 0px 10px;
 	}
 
+
+/*contact*/
 .contact{
 	text-align: justify;
 	background-color: transparent;
@@ -362,19 +364,6 @@ h2 {
 .adresse p {
 	font-size: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*********Media Queries************/
