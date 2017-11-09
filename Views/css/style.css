@@ -150,8 +150,8 @@ width: auto;
 		max-width:1500px;
 		min-height:1300px;
 		background: url(NY_docks_o.jpg)no-repeat;
-		display: -webkit-flex; 
-		-webkit-align-items: flex-start; 
+		display: -webkit-flex;
+		-webkit-align-items: flex-start;
 		display: flex;
 		align-items: flex-start;
 	}
@@ -173,14 +173,14 @@ width: auto;
 	p{
 		line-height:1.5;
 	}
-	
+
 	footer, header, nav, section{
 		display:block;
 	}
 
 /*---- Header ----*/
 
-	
+
 
 /*---- Citation ----*/
 
@@ -192,12 +192,12 @@ blockquote{
 	width:auto;
 	max-width:600px;
 	line-height:1.5;
-	display:block;	
+	display:block;
 }
 
 /*---- Footer ----*/
 
-	
+
 
 
 /*---- Page Accueil ----*/
@@ -241,7 +241,7 @@ blockquote{
 
 	#maininfo{
 		margin-top: 10%;
-		clear: left;	
+		clear: left;
 	}
 
 	ul.secondinfo {
@@ -254,7 +254,7 @@ blockquote{
 
 	#product{
 		 padding-top:2em;
-		 text-align: center;	
+		 text-align: center;
 	}
 
 	.subproduct {
@@ -271,7 +271,7 @@ blockquote{
 
 	.subproduct li a {
 		display: block;
-		border-radius:5px; 
+		border-radius:5px;
 		line-height: 1.5em;
 		background-color: grey;
 		text-transform: uppercase;
@@ -323,13 +323,67 @@ blockquote{
 		margin: 0px 10px;
 	}
 
+.contact{
+	text-align: justify;
+	background-color: transparent;
+	width: 100%;
+	margin-left: 500px;
+	margin-right: 500px;
+}
+h1 {
+
+	font-size: 30px;
+	font-style: normal;
+	font-weight: normal;
+	margin-left: 250px;
+}
+h2 {
+	text-align: justify;
+	font-size: 25px;
+	font-weight: bold;
+}
+.nom, h6{
+	font-size: 18px;
+	font-weight: 600;
+
+}
+.nom, input {
+	font-size: 15px;
+
+}
+.magasin, p {
+	font-size: 25px;
+}
+.contact, p {
+	text-align: justify;
+	font-size: 20px;
+}
+
+.adresse p {
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*********Media Queries************/
 
 @media only screen and (max-width: 768px)
 {
 	.wrap-404 {
 		width: 80%;
-	}	
+	}
 	.logo-404 img {
 		width: 315px;
 	}
@@ -344,7 +398,7 @@ blockquote{
 	}
 	.wrap-404 {
 		width: 85%;
-	}	
+	}
 	.logo-404 {
 		padding: 1% 1% 12% 1%;
 	}
@@ -356,7 +410,7 @@ blockquote{
 {
 	.wrap-404 {
 		width: 90%;
-	}	
+	}
 	.logo-404 {
 		padding: 1% 1% 12% 1%;
 	}
@@ -371,7 +425,7 @@ blockquote{
 {
 	.wrap-404 {
 		width: 90%;
-	}	
+	}
 	.logo-404 {
 		padding: 1% 1% 12% 1%;
 	}
