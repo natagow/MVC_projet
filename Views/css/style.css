@@ -43,6 +43,8 @@
 		padding: 0;
 		width:100%;
 		background-color:#272727;
+		display: inline-block;
+
 
 
 	}
@@ -53,9 +55,12 @@
 	.navUp .navLeft ul li{
 		display: inline-block;
 		margin-right: 20px;
-		margin-top: 8px;
+		margin-top: 10px;
 		font-size: 15px;
 		color: white;
+		font-family: "Lato","Avenir Next",sans-serif;
+		font-size: 0.8rem;
+
 	}
 	.navUp .navRight  button{
 		display: inline-block;
@@ -114,9 +119,13 @@
 
 
 }
-.navRightDown .icon {
+#contact-info  {
 	float: right;
 	color:white;
+}
+
+#contact-info a {
+	color: white;
 }
 /*header fin*/
 
