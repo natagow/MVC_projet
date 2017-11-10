@@ -133,19 +133,20 @@ blockquote{
 
 
 /*---- Stock ----*/
-.stock h1 {
-	text-align: center;
-	padding-top: 100px;
-	padding-bottom: 30px;
-	margin-left: 33%;
-}
-.stock{
+.stock {
 		text-align:center;
 		font-family: "Lato","Open Sans","Avenir Next",sans-serif;
 		color: black;
 	  font-weight: 400;
-	}
+		height: 100%;
 
+	}
+	.stock h1 {
+		text-align: center;
+		padding-top: 100px;
+		padding-bottom: 30px;
+		margin-left: 33%;
+	}
 /*---- Contact ----*/
 
  .contact{
