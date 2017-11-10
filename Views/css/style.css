@@ -98,17 +98,19 @@
 }
 .navCenterDown ul {
 	text-align: center;
+
+
 }
 
 .navCenterDown ul li {
 	display: inline-block;
 	border: 1px solid grey;
 	border-radius: 5px;
-	height: 20px;
+	height: 30px;
 	padding-left: 5px;
 	padding-right: 5px;
-	font-size: 10px;
-	padding-bottom: 10px;
+	font-size: 15px;
+	font-family:"Lato","Open Sans", sans-serif;
 
 
 }
