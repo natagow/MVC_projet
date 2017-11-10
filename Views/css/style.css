@@ -1,0 +1,451 @@
+/*---- Body ----*/
+
+	body{
+		/*-webkit-overflow-scrolling:touch;*/
+		/*color:#f7f7f7;*/
+		/*background:#272727;*/
+
+	}
+
+	html,body{
+		padding:0;
+		margin:0;
+		height: 100%;
+	}
+
+
+/*---- Général ----*/
+	*{
+		font-family:"Lato","Open Sans", sans-serif;
+		/*-webkit-font-smoothing:antialiased;*/
+		margin:0;
+		padding:0;
+	}
+
+	a{
+		text-decoration: none;
+		/*color:#000;*/
+	}
+
+	p{
+		/*line-height:1.5;*/
+	}
+
+	footer, header, nav, section{
+		display:block;
+	}
+
+/*---- Header ----*/
+
+	.principal {
+		height: 115px;
+		margin: 0;
+		padding: 0;
+		width:100%;
+		background-color:#272727;
+		position:relative;
+
+
+	}
+	.navUp{
+		height: 40px;
+		/*background-color:#272727;*/
+	}
+	.navUp .navLeft ul li{
+		display: inline-block;
+		margin-right: 20px;
+		margin-top: 8px;
+		font-size: 15px;
+		color: white;
+	}
+	.navUp .navRight  button{
+		display: inline-block;
+		float: right;
+		margin-right: 25px;
+		font-size: 15px;
+		border: 0.5px solid grey;
+		background-color: black;
+		color: white;
+		font-weight: bold;
+		line-height: 1.5;
+		margin-top: -20px;
+		font-family: "Lato", sans-serif;
+		text-align: center;
+	}
+
+.navUp{
+	border-bottom: 1px solid grey;
+}
+.navBas .navLeftDown a img {
+	background-image: url (/var/www/html/Test-Didier-Motte/Test-Didier-Motte/Views/css/logoMotte.jpg);
+}
+
+.navBas{
+	/*background-color: #272727;*/
+}
+.navLeftDown h2 {
+	font-size: 30px;
+	margin-left: 100px;
+	font-weight: bold;
+	color: white;
+}
+.navCenterDown ul li a {
+	color: white;
+
+}
+.navCenterDown ul {
+	margin-left: 750px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navCenterDown ul li {
+	display: inline-block;
+	border: 1px solid grey;
+	border-radius: 5px;
+	height: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 15px;
+
+
+}
+.navRightDown .icon {
+	float: right;
+	margin-top: -40px;
+	margin-right: 20px;
+	color:white;
+}
+/*header fin*/
+
+/*---- Citation ----*/
+
+blockquote{
+	text-align:center;
+	margin:50px auto;
+	color: #f7f7f7;
+	font-style:italic;
+	width:auto;
+	max-width:600px;
+	line-height:1.5;
+	display:block;
+}
+
+
+/*---- Stock ----*/
+.stock h1 {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 30px;
+	margin-left: 33%;
+}
+.stock{
+		text-align:center;
+		font-family: "Lato","Open Sans","Avenir Next",sans-serif;
+		color: black;
+	  font-weight: 400;
+	}
+
+/*---- Contact ----*/
+
+ .contact{
+	/*text-align: center;*/
+	background-color: transparent;
+	width: 100%;
+	text-align: center;
+	margin-right: 600px;
+
+	}
+ .contact h1 {
+	font-size: 30px;
+	font-style: normal;
+	font-weight: normal;
+	padding-top: 100px;
+	}
+ .contact h2 {
+	text-align: justify;
+	font-size: 20px;
+	font-weight: bold;
+	}
+	.contact .magasin p {
+		float: left;
+	}
+ .contact .nom  h6{
+
+	font-size: 18px;
+	font-weight: 600px;
+	}
+ .contact .nom input {
+	font-size: 15px;
+
+	}
+ .contact .magasin, p {
+	font-size: 25px;
+	}
+ .contact, p {
+	text-align: justify;
+	font-size: 20px;
+	}
+.contact .adresse p {
+	font-size: 15px;
+	}
+
+/*---- Footer ----*/
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+footer p{
+	text-align: center;
+	background-color: #272727;
+	color: white;
+
+}
+footer p a {
+	color: white;
+}
+
+
+
+/*---- Presentation ----*/
+
+	#presentation {
+		text-align: center;
+		background-color: #F7F7F7;
+	}
+
+	h1 {
+		width: 638px;
+	    height: 32;
+	    text-align: center;
+	}
+
+	h2 {
+		font-size: 10px;
+	    float: left;
+	}
+
+	#presentation h1, h2, h3 {
+		font-family: "Lato","Open Sans","Avenir Next",sans-serif;
+		color: black;
+	    font-weight: 400;
+	    margin: 0 0 40px;
+	}
+
+	#p {
+		margin: 1em 0;
+		color: black;
+		text-align: left;
+	    line-height: 1.4;
+	    font-size: 22px;
+	}
+
+	#em {
+		width: 100%;
+		color: black;
+		font-size: 10%;
+	}
+
+
+/*---- Page Accueil ----*/
+
+	.maincontenair{
+		max-width:1500px;
+		min-height:1300px;
+		background: url(NY_docks_o.jpg)no-repeat;
+		display: -webkit-flex;
+		-webkit-align-items: flex-start;
+		display: flex;
+		align-items: flex-start;
+	}
+/*---- Vcard ----*/
+
+	#card {
+		text-align: center;
+		background-color:#fff;
+		margin: 0 auto;
+		padding: 1em;
+		width:40%;
+		height:425px;
+		border-radius: 5px;
+		-webkit-align-self: center; /* Safari 7.0+ */
+		align-self: center;
+	}
+
+	#mainlogo {
+		width: 100%;
+		margin-bottom: 10%;
+	}
+
+	.logo{
+		width:150px;
+		height:150px;
+		float: left;
+	}
+
+	.logo img{
+		width:50%;
+		height:50%;
+	}
+
+	.maintitle {
+		font: bold 3em "Trebuchet",Arial,sans-serif;
+		text-transform: uppercase;
+		padding-left:3em;
+		padding-bottom: 2em;
+		display: block;
+	}
+
+	#maininfo{
+		margin-top: 10%;
+		clear: left;
+	}
+
+	ul.secondinfo {
+		list-style-type:circle;
+	}
+
+	ul.secondinfo li {
+		display: inline-block;
+	}
+
+	#product{
+		 padding-top:2em;
+		 text-align: center;
+	}
+
+	.subproduct {
+		display: flex;
+		flex-direction:row;
+		list-style-type: none;
+	 	justify-content: center;
+	}
+
+	.subproduct li{
+		display: inline-block;
+		padding-left:0.5em;
+	}
+
+	.subproduct li a {
+		display: block;
+		border-radius:5px;
+		line-height: 1.5em;
+		background-color: grey;
+		text-transform: uppercase;
+		text-align: center;
+		color: #fff;
+		padding-left:1em;
+		padding-right: 1em;
+	}
+
+	.subproduct li a:hover {
+		border: 1px inset #222;
+		background-color:#fff;
+		color:#000;
+	}
+
+	.contact {
+		float: right;
+		width: auto;
+	}
+
+
+/*---- Page 404 ----*/
+
+	/*---- wrap ----*/
+		.wrap-404
+			{
+				width:70%;
+				margin:5.2% auto 4% auto;
+			}
+	/*---- logo ----*/
+		.logo-404
+		{
+			padding: 1em;
+			text-align: center;
+			padding: 1% 1% 5% 1%;
+		}
+		.logo-404 h1{
+			display: block;
+			padding: 2em 0em;
+		}
+		.logo-404 span{
+			font-size: 2em;
+			color:#fff;
+		}
+		.logo-404 span img{
+			width:40px;
+			height: 40px;
+			vertical-align:bottom;
+			margin: 0px 10px;
+		}
+
+/*********Media Queries************/
+
+	@media only screen and (max-width: 768px)
+	{
+		.wrap-404 {
+			width: 80%;
+		}
+		.logo-404 img {
+			width: 315px;
+		}
+	}
+	@media only screen and (max-width: 640px)
+	{
+		.maincontainer{
+			background-position:center-bottom;
+			background-attachment: fixed;
+			background-repeat:no-repeat;
+			background-size:cover;
+		}
+		.wrap-404 {
+			width: 85%;
+		}
+		.logo-404 {
+			padding: 1% 1% 12% 1%;
+		}
+		.logo-404 img {
+			width: 300px;
+		}
+	}
+	@media only screen and (max-width: 480px)
+	{
+		.wrap-404 {
+			width: 90%;
+		}
+		.logo-404 {
+			padding: 1% 1% 12% 1%;
+		}
+		.logo-404 span {
+			font-size: 1.6em;
+		}
+		.logo-404 img {
+			width: 270px;
+		}
+	}
+	@media only screen and (max-width: 320px)
+	{
+		.wrap-404 {
+			width: 90%;
+		}
+		.logo-404 {
+			padding: 1% 1% 12% 1%;
+		}
+
+		.logo-404 span {
+			font-size: 1.4em;
+		}
+		.logo-404 span img {
+		vertical-align: middle;
+		}
+		.logo-404 img {
+			width: 200px;
+		}
