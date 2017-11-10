@@ -1,5 +1,4 @@
 /*---- Body ----*/
-/*prout*/
 
 	body{
 		/*-webkit-overflow-scrolling:touch;*/
@@ -136,16 +135,34 @@ blockquote{
 /*---- Stock ----*/
 .stock h1 {
 	text-align: center;
-	padding-top: 100px;
-	padding-bottom: 30px;
-	margin-left: 33%;
+    padding-top: 65px;
+    padding-bottom: 30px;
+    margin-left: -10%;
+    margin-bottom: 25px;
+}
+#label{
+	text-transform: uppercase;
+    font-size: 13px
 }
 .stock{
-		text-align:center;
-		font-family: "Lato","Open Sans","Avenir Next",sans-serif;
-		color: black;
-	  font-weight: 400;
+	text-align:center;
+	font-family: "Lato","Open Sans","Avenir Next",sans-serif;
+	color: black;
+	font-weight: 400;
 	}
+#input{
+    margin-top: 20px;
+    }
+#button{
+	border-radius: 6px;
+    padding-bottom: 2px;
+    padding-top: 3px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-colo: white;
+    color: white;
+    background-color: #272727;
+}
 
 /*---- Contact ----*/
 
@@ -184,9 +201,17 @@ blockquote{
 	font-size: 25px;
 	}
  .contact, p {
+
+	text-align: justify;
+
+	font-size: 20px;
+
 	/*text-align: justify;*/ /*changer en center car sinon prob dans img presentation*/
+
 	font-size: 20px;  /* ça me casse mon paragraphe, je comprends pas pk...*/
+
 	}
+
 .contact .adresse p {
 	font-size: 15px;
 	}
@@ -281,17 +306,6 @@ a{
 	text-align: center;
 }
 
-/*---- Page Accueil ----*/
-
-	.maincontenair{
-		max-width:1500px;
-		min-height:1300px;
-		background: url(NY_docks_o.jpg)no-repeat;
-		display: -webkit-flex;
-		-webkit-align-items: flex-start;
-		display: flex;
-		align-items: flex-start;
-	}
 /*---- Vcard ----*/
 
 	#card {
