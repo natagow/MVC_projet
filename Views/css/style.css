@@ -44,8 +44,6 @@
 		width:100%;
 		background-color:#272727;
 		position:relative;
-
-
 	}
 	.navUp{
 		height: 40px;
@@ -195,13 +193,13 @@ blockquote{
 
 /*---- Footer ----*/
 
-footer {
-	position: absolute;
+footer {	
 	bottom: 0;
 	left: 0;
 	right: 0;
-
+	display:inline-block;
 }
+
 footer p{
 	text-align: center;
 	background-color: #272727;
@@ -256,15 +254,11 @@ footer p a {
 
 /*---- Page Accueil ----*/
 
-	.maincontenair{
-		max-width:1500px;
-		min-height:1300px;
+	#maincontenair{
 		background: url(NY_docks_o.jpg)no-repeat;
-		display: -webkit-flex;
-		-webkit-align-items: flex-start;
-		display: flex;
-		align-items: flex-start;
+		background-size:cover;
 	}
+
 /*---- Vcard ----*/
 
 	#card {
@@ -272,11 +266,8 @@ footer p a {
 		background-color:#fff;
 		margin: 0 auto;
 		padding: 1em;
-		width:40%;
-		height:425px;
+		width:50%;
 		border-radius: 5px;
-		-webkit-align-self: center; /* Safari 7.0+ */
-		align-self: center;
 	}
 
 	#mainlogo {
@@ -288,37 +279,22 @@ footer p a {
 		width:150px;
 		height:150px;
 		float: left;
-	}
-
-	.logo img{
-		width:50%;
-		height:50%;
-	}
+	}	
 
 	.maintitle {
-		font: bold 3em "Trebuchet",Arial,sans-serif;
+		font: bold 2.5em "Trebuchet",Arial,sans-serif;
 		text-transform: uppercase;
 		padding-left:3em;
-		padding-bottom: 2em;
+		padding-bottom: 1em;
 		display: block;
+		color:black;
 	}
 
-	#maininfo{
-		margin-top: 10%;
-		clear: left;
-	}
-
-	ul.secondinfo {
-		list-style-type:circle;
-	}
-
-	ul.secondinfo li {
-		display: inline-block;
-	}
-
-	#product{
-		 padding-top:2em;
-		 text-align: center;
+	.title{
+		padding-left:0.5em;
+		padding-right:0.5em;
+		font-size:15px;
+		text-align:center;
 	}
 
 	.subproduct {
@@ -341,8 +317,8 @@ footer p a {
 		text-transform: uppercase;
 		text-align: center;
 		color: #fff;
-		padding-left:1em;
-		padding-right: 1em;
+		padding-left:0.5em;
+		padding-right:0.5em;
 	}
 
 	.subproduct li a:hover {
@@ -351,20 +327,19 @@ footer p a {
 		color:#000;
 	}
 
-	.contact {
-		float: right;
-		width: auto;
-	}
-
 
 /*---- Page 404 ----*/
 
 	/*---- wrap ----*/
 		.wrap-404
-			{
-				width:70%;
-				margin:5.2% auto 4% auto;
-			}
+		{	
+			background-image:url(bg.jpg);
+			background-repeat:no-repeat;
+			background-size:cover;
+			position:relative;
+			width:100%;
+			margin:0 auto;
+		}
 	/*---- logo ----*/
 		.logo-404
 		{
@@ -373,8 +348,8 @@ footer p a {
 			padding: 1% 1% 5% 1%;
 		}
 		.logo-404 h1{
-			display: block;
 			padding: 2em 0em;
+			margin: 0 auto;
 		}
 		.logo-404 span{
 			font-size: 2em;
