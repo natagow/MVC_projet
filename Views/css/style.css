@@ -215,7 +215,6 @@ height: 150px;
 background-color: #272727;
 padding-top: 6vh;
 padding-bottom: 5vh;
-margin-top: 6vh;
 
 }
 
@@ -300,7 +299,7 @@ text-align: center;
 		width:150px;
 		height:150px;
 		float: left;
-	}	
+	}
 
 	.maintitle {
 		font: bold 2.5em "Trebuchet",Arial,sans-serif;
@@ -353,13 +352,15 @@ text-align: center;
 
 	/*---- wrap ----*/
 		.wrap-404
-		{	
+		{
 			background-image:url(bg.jpg);
 			background-repeat:no-repeat;
 			background-size:cover;
-			position:relative;
 			width:100%;
-			margin:0 auto;
+			height:100%;
+
+
+
 		}
 	/*---- logo ----*/
 		.logo-404
