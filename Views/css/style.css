@@ -43,7 +43,6 @@
 		padding: 0;
 		width:100%;
 		background-color:#272727;
-		position:relative;
 
 
 	}
@@ -77,26 +76,28 @@
 	border-bottom: 1px solid grey;
 }
 .navBas .navLeftDown a img {
-	background-image: url (/var/www/html/Test-Didier-Motte/Test-Didier-Motte/Views/css/logoMotte.jpg);
+	background-image: url(/var/www/html/Test-Didier-Motte/Test-Didier-Motte/Views/css/logoMotte.jpg);
 }
 
 .navBas{
 	/*background-color: #272727;*/
+	display: inline-block;
+	height: 115px;
+	width: 100%;
 }
 .navLeftDown h2 {
 	font-size: 30px;
 	margin-left: 100px;
 	font-weight: bold;
 	color: white;
+	margin-bottom: 10px;
 }
 .navCenterDown ul li a {
 	color: white;
 
 }
 .navCenterDown ul {
-	margin-left: 750px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	text-align: center;
 }
 
 .navCenterDown ul li {
@@ -104,19 +105,15 @@
 	border: 1px solid grey;
 	border-radius: 5px;
 	height: 20px;
-	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 10px;
 	padding-bottom: 10px;
-	text-align: center;
-	padding-left: 10px;
-	padding-right: 10px;
-	font-size: 15px;
 
 
 }
 .navRightDown .icon {
 	float: right;
-	margin-top: -40px;
-	margin-right: 20px;
 	color:white;
 }
 /*header fin*/
@@ -216,43 +213,38 @@ footer p a {
 
 /*---- Presentation ----*/
 
-	#presentation {
-		text-align: center;
-		background-color: #F7F7F7;
-	}
+#presentation{
+padding-top: 10%;
+background-color: #F7F7F7;
+font-family: "Lato","Open Sans","Avenir Next",sans-serif;
+display: block;
+text-align: center;
+}
 
-	h1 {
-		width: 638px;
-	    height: 32;
-	    text-align: center;
-	}
+h1{
 
-	h2 {
-		font-size: 10px;
-	    float: left;
-	}
+}
 
-	#presentation h1, h2, h3 {
-		font-family: "Lato","Open Sans","Avenir Next",sans-serif;
-		color: black;
-	    font-weight: 400;
-	    margin: 0 0 40px;
-	}
+h2{
+width: 585px;
+height: 25px;
+}
 
-	#p {
-		margin: 1em 0;
-		color: black;
-		text-align: left;
-	    line-height: 1.4;
-	    font-size: 22px;
-	}
+a{
+color: black;
+}
 
-	#em {
-		width: 100%;
-		color: black;
-		font-size: 10%;
-	}
+#texte1{
+width: 585px;
+height: 203px;
+text-align: center;
+}
 
+#texte2{
+width: 505px;
+height: 174px;
+text-align: center;
+}
 
 /*---- Page Accueil ----*/
 
