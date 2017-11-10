@@ -98,19 +98,17 @@
 }
 .navCenterDown ul {
 	text-align: center;
-
-
 }
 
 .navCenterDown ul li {
 	display: inline-block;
 	border: 1px solid grey;
 	border-radius: 5px;
-	height: 30px;
+	height: 20px;
 	padding-left: 5px;
 	padding-right: 5px;
-	font-size: 15px;
-	font-family:"Lato","Open Sans", sans-serif;
+	font-size: 10px;
+	padding-bottom: 10px;
 
 
 }
@@ -135,20 +133,19 @@ blockquote{
 
 
 /*---- Stock ----*/
-.stock {
+.stock h1 {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 30px;
+	margin-left: 33%;
+}
+.stock{
 		text-align:center;
 		font-family: "Lato","Open Sans","Avenir Next",sans-serif;
 		color: black;
 	  font-weight: 400;
-		height: 100%;
+	}
 
-	}
-	.stock h1 {
-		text-align: center;
-		padding-top: 100px;
-		padding-bottom: 30px;
-		margin-left: 33%;
-	}
 /*---- Contact ----*/
 
  .contact{
@@ -186,8 +183,8 @@ blockquote{
 	font-size: 25px;
 	}
  .contact, p {
-	text-align: justify;
-	font-size: 20px;
+	/*text-align: justify;*/ /*changer en center car sinon prob dans img presentation*/
+	font-size: 20px;  /* ça me casse mon paragraphe, je comprends pas pk...*/
 	}
 .contact .adresse p {
 	font-size: 15px;
@@ -206,6 +203,9 @@ background-color: #272727;
 padding-top: 6vh;
 padding-bottom: 5vh;
 margin-top: 6vh;
+	bottom: 0;
+	left: 0;
+	right: 0;
 
 }
 
@@ -236,31 +236,48 @@ background-color: #F7F7F7;
 font-family: "Lato","Open Sans","Avenir Next",sans-serif;
 display: block;
 text-align: center;
+padding-top: 10%;
+padding-right: 449px ;
+padding-left: 449px ;
+width: 449px;
+height: 1974px;
+background-color: #F7F7F7;
+/*	font-family: "Lato","Open Sans","Avenir Next",sans-serif;*/
+display: block;
+clear: both;
+overflow-y: hidden ;
 }
 
 h1{
-
+	font-family: "Lato","Avenir Next",sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    text-transform: uppercase;
 }
 
 h2{
-width: 585px;
-height: 25px;
+	width: 585px;
+    height: 25px;
+    padding-top: 6%;
+    font-size: 20px;
 }
 
 a{
-color: black;
+	color: black;
 }
 
-#texte1{
-width: 585px;
-height: 203px;
-text-align: center;
+#presentation #texte1{
+	width: 585px;
+    height: 203px;
+    text-align: left;
 }
 
 #texte2{
-width: 505px;
-height: 174px;
-text-align: center;
+	width: 505px;
+	height: 174px;
+	text-align: center;
 }
 
 /*---- Page Accueil ----*/
