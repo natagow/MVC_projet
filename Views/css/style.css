@@ -1,5 +1,4 @@
 /*---- Body ----*/
-/*prout*/
 
 	body{
 		/*-webkit-overflow-scrolling:touch;*/
@@ -145,12 +144,45 @@ blockquote{
 
 
 /*---- Stock ----*/
+<<<<<<< HEAD
 .stock {
 		text-align:center;
 		font-family: "Lato","Open Sans","Avenir Next",sans-serif;
 		color: black;
 	  font-weight: 400;
 		height: 100%;
+=======
+.stock h1 {
+	text-align: center;
+    padding-top: 65px;
+    padding-bottom: 30px;
+    margin-left: -10%;
+    margin-bottom: 25px;
+}
+#label{
+	text-transform: uppercase;
+    font-size: 13px
+}
+.stock{
+	text-align:center;
+	font-family: "Lato","Open Sans","Avenir Next",sans-serif;
+	color: black;
+	font-weight: 400;
+	}
+#input{
+    margin-top: 20px;
+    }
+#button{
+	border-radius: 6px;
+    padding-bottom: 2px;
+    padding-top: 3px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-colo: white;
+    color: white;
+    background-color: #272727;
+}
+>>>>>>> 892c4a48360d091d0cfc5ad73f6e39b95bcfa080
 
 	}
 	.stock h1 {
@@ -196,9 +228,22 @@ blockquote{
 	font-size: 25px;
 	}
  .contact, p {
+<<<<<<< HEAD
 	text-align: justify;
 	font-size: 20px;
+=======
+
+	text-align: justify;
+
+	font-size: 20px;
+
+	/*text-align: justify;*/ /*changer en center car sinon prob dans img presentation*/
+
+	font-size: 20px;  /* ça me casse mon paragraphe, je comprends pas pk...*/
+
+>>>>>>> 892c4a48360d091d0cfc5ad73f6e39b95bcfa080
 	}
+
 .contact .adresse p {
 	font-size: 15px;
 	}
@@ -272,6 +317,7 @@ height: 174px;
 text-align: center;
 }
 
+<<<<<<< HEAD
 
 /*---- Page Accueil ----*/
 
@@ -280,6 +326,8 @@ text-align: center;
 		background-size:cover;
 	}
 
+=======
+>>>>>>> 892c4a48360d091d0cfc5ad73f6e39b95bcfa080
 /*---- Vcard ----*/
 
 	#card {
