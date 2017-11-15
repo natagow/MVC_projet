@@ -144,14 +144,6 @@ blockquote{
 
 
 /*---- Stock ----*/
-<<<<<<< HEAD
-.stock {
-		text-align:center;
-		font-family: "Lato","Open Sans","Avenir Next",sans-serif;
-		color: black;
-	  font-weight: 400;
-		height: 100%;
-=======
 .stock h1 {
 	text-align: center;
     padding-top: 65px;
@@ -182,7 +174,6 @@ blockquote{
     color: white;
     background-color: #272727;
 }
->>>>>>> 892c4a48360d091d0cfc5ad73f6e39b95bcfa080
 
 	}
 	.stock h1 {
@@ -228,10 +219,6 @@ blockquote{
 	font-size: 25px;
 	}
  .contact, p {
-<<<<<<< HEAD
-	text-align: justify;
-	font-size: 20px;
-=======
 
 	text-align: justify;
 
@@ -241,7 +228,6 @@ blockquote{
 
 	font-size: 20px;  /* ça me casse mon paragraphe, je comprends pas pk...*/
 
->>>>>>> 892c4a48360d091d0cfc5ad73f6e39b95bcfa080
 	}
 
 .contact .adresse p {
@@ -317,7 +303,6 @@ height: 174px;
 text-align: center;
 }
 
-<<<<<<< HEAD
 
 /*---- Page Accueil ----*/
 
@@ -326,8 +311,6 @@ text-align: center;
 		background-size:cover;
 	}
 
-=======
->>>>>>> 892c4a48360d091d0cfc5ad73f6e39b95bcfa080
 /*---- Vcard ----*/
 
 	#card {
